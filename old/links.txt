@@ -1,0 +1,9 @@
+http://localhost/laravel/bapu/template/index-corporate-4.html
+
+
+
+
+http://localhost/laravel/bapu/template/elements-pricing-tables.html
+
+
+https://codepen.io/ibrahima92/pen/RwwNoGm
