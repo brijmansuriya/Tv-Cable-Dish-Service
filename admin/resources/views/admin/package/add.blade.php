@@ -87,7 +87,7 @@
                                 {{ uplodes('4', 'Image', 'FileName_' . $cloop, 'Upload File', 'application/*', $cloop) }}
                                 {{ editbox('4', 'Channel Name', 'c_name_' . $cloop, 'Enter Channel Name', $c_name) }}
                                 <div style="margin-top: 2px;"></div>
-                                {{ checkbox('1','payed','is_payd','') }}
+                                {{ checkbox('1','payed','is_payed'. $cloop,'') }}
 
                                 <a href="{{ URL::to('/') }}/uploads/{{ $row->img }}" target="_blank">
                                     <img src="{{ URL::to('/') }}/100/{{ $row->img }}" class="mw100">

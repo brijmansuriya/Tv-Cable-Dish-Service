@@ -110,10 +110,15 @@ class PackageController extends Controller
             $subid="subid_".$i;
             $c_name="c_name_".$i;
             $FileName="FileName_".$i;
+            $ispayed="is_payed".$i;
            
+         
             $subid = $Request->$subid;
             $c_name = $Request->$c_name;
+            $ispayed = $Request->$ispayed;
           
+            // print_r($Request->post());
+            // exit;
             if ($subid != 0 or $subid != '') {
                 $PackimgModel = PackimgModel::find($subid);
                 $PackimgModel->c_name = StringRepair($c_name);

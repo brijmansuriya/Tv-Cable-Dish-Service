@@ -13,3 +13,105 @@ php artisan clear-compiled
 
 //singl file migration
 php artisan migrate --path=/database/migrations/2021_06_14_100819_create_expense_table.php
+
+//rollback
+php artisan migrate:rollback
+
+//after calume add
+$table->Integer('cat_id')->nullable()->after('id');
+
+
+
+https://codepen.io/skc3779/pen/dVggyX
+-----------------------------------------------------------
+
+
+fv0D7peDa3D5K0IY
+-----------------------------------------------------------
+
+
+php artisan make:migration create_flights_table
+php artisan migrate
+php artisan migrate --path=/database/migrations/test/
+
+------------------------------------------------------------
+model
+------------------------------------------------------------
+php artisan make:model Flight --controller
+php artisan make:model Flight --migration  
+            
+-------------------------------------------------------------
+php artisan stub:publish
+conttrol bluprint
+-------------------------------------------------------------
+php artisan make:controller stube
+
+
+
+-------------------------------------------------------------
+controller
+-------------------------------------------------------------
+php artisan make:controller PhotoController --resource
+
+
+
+
+
+------------------------------------------------------------
+New Project
+------------------------------------------------------------
+composer create-project laravel/laravel example-app
+
+
+
+
+------------------------------------------------------------
+Mail
+------------------------------------------------------------
+php artisan make:mail TestMail
+
+
+
+
+------------------------------------------------------------
+excel
+------------------------------------------------------------
+composer require maatwebsite/excel
+php artisan vendor:publish --provider="Maatwebsite\Excel\ExcelServiceProvider"
+php artisan make:export EmployExport --model=App\Models\Employee 
+
+---------------
+import
+---------------
+php artisan make:import EmployExport --model=App\Models\Employee 
+php artisan migrate --path=/database/migrations/2021_07_19_111113_create_tbl_group_table.php
+
+
+
+-------------------------------------------------------------
+Image Resize
+-------------------------------------------------------------
+composer require intervention/image
+php artisan vendor:publish --provider="Intervention\Image\ImageServiceProviderLaravelRecent"
+
+-------------------------------------------------------------
+php artisan vendor:publish --provider="Yajra\DataTables\DataTablesServiceProvider"
+php artisan make:factory Emploeefactory --model=Employee 
+php artisan datatables:make Employee 
+
+
+
+
+--------------------------------------------------------------
+Infinite Scroll Pagination
+--------------------------------------------------------------
+
+php artisan make:model Post -m
+php artisan make:controller Postcontroller
+
+----------------------------------------------------------------
+ganral
+----------------------------------------------------------------
+php artisan make:migration create_flights_table
+php artisan migrate --path=/database/migrations/2021_07_19_111113_create_tbl_group_table.php
+php artisan make:model AddgroupModel

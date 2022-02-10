@@ -225,3 +225,19 @@ footer .profile_toggle>a {
 .page-header.page-header-modern.page-header-background.page-header-background-md {
     padding: 25px 0 !important;
 }
+
+
+/* 
+===========================================================
+cart image css
+=========================================================== */
+
+.cart_img {
+    height: 65px;
+    width: 70px;
+}
+
+.rowmrc {
+    margin-right: 0px;
+    margin-left: -15px;
+}

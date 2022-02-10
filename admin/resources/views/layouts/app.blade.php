@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="AdminDesigns">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="{{ asset('admin/assets/skin/default_skin/css/theme.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{asset('admin/assets/skin/default_skin/css/theme.css') }}">
     {{-- <link rel="stylesheet" type="text/css" href="{{ asset('admin/assets/skin/default_skin/css/custom.css') }}"> --}}
     <link rel="stylesheet" type="text/css"
         href="{{ asset('admin/assets/admin-tools/admin-forms/css/admin-forms.css') }}">

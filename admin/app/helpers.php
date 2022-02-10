@@ -121,7 +121,7 @@ function checkbox($colname, $label, $fieldname, $value)
     echo '<div class="col-lg-' . $colname . '">
             <fieldset class="form-group">
             <label class="form-label semibold">' . $label . '</label><br>
-                <input type="checkbox" id="' . $fieldname . '" name="' . $fieldname . '" value="' . $fieldname . '">
+                <input type="checkbox" id="' . $fieldname . '" name="' . $fieldname . '" value="1">
             </div>';
 }
 function uplode($colname, $label, $fieldname, $script = '')
