@@ -49,8 +49,8 @@
                      </div>
                   </div>
                   <div class="col-md-8 order-1 order-md-2 text-center text-md-left mb-3 mb-md-0 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">
-                     <h2 class="font-weight-normal text-6 mb-2">ABOUT RUDRA COTTON</h2>
-                     <p class="lead text-justify">We at Rudra Cotton having a global business exposure are skilled in export of finely processed quality of cotton waste. Our Technologically sound processing units  produce superior quality of cotton waste  maintaining high quality International standards. We commit ourselves to supply quality cotton waster to our customers across the globe in provided time.</p>
+                     <h2 class="font-weight-normal text-6 mb-2">ABOUT BAPU</h2>
+                     <p class="lead text-justify">We at BAPU having a global business exposure are skilled in export of finely processed quality of cotton waste. Our Technologically sound processing units  produce superior quality of cotton waste  maintaining high quality International standards. We commit ourselves to supply quality cotton waster to our customers across the globe in provided time.</p>
                      <a href="aboutus.php" class="btn btn-dark font-weight-semibold rounded-0 px-5 btn-py-2 text-2 p-relative bottom-3">LEARN
                      MORE</a>
                   </div>
@@ -83,7 +83,7 @@
                            </div>
                            <div class="feature-box-info">
                               <h4 class="font-weight-bold text-color-light text-4 mb-2">EXPERIENCE</h4>
-                              <p class="text-color-light opacity-7">Good will, reputation and recognition are the results of accumulated expertise and experience. Rudra cotton is the result of the whole of our success and experience in the business world.</p>
+                              <p class="text-color-light opacity-7">Good will, reputation and recognition are the results of accumulated expertise and experience. BAPU is the result of the whole of our success and experience in the business world.</p>
                            </div>
                         </div>
                      </div>

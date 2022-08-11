@@ -49,8 +49,8 @@
                      </div>
                   </div>
                   <div class="col-md-8 order-1 order-md-2 text-center text-md-left mb-3 mb-md-0 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">
-                     <h2 class="font-weight-normal text-6 mb-2">ABOUT RUDRA COTTON</h2>
-                     <p class="lead text-justify">We at Rudra Cotton having a global business exposure are skilled in export of finely processed quality of cotton waste. Our Technologically sound processing units  produce superior quality of cotton waste  maintaining high quality International standards. We commit ourselves to supply quality cotton waster to our customers across the globe in provided time.</p>
+                     <h2 class="font-weight-normal text-6 mb-2">ABOUT BAPU</h2>
+                     <p class="lead text-justify">We at BAPU having a global business exposure are skilled in export of finely processed quality of cotton waste. Our Technologically sound processing units  produce superior quality of cotton waste  maintaining high quality International standards. We commit ourselves to supply quality cotton waster to our customers across the globe in provided time.</p>
                      <a href="aboutus.php" class="btn btn-dark font-weight-semibold rounded-0 px-5 btn-py-2 text-2 p-relative bottom-3">LEARN
                      MORE</a>
                   </div>
@@ -83,7 +83,7 @@
                            </div>
                            <div class="feature-box-info">
                               <h4 class="font-weight-bold text-color-light text-4 mb-2">EXPERIENCE</h4>
-                              <p class="text-color-light opacity-7">Good will, reputation and recognition are the results of accumulated expertise and experience. Rudra cotton is the result of the whole of our success and experience in the business world.</p>
+                              <p class="text-color-light opacity-7">Good will, reputation and recognition are the results of accumulated expertise and experience. BAPU is the result of the whole of our success and experience in the business world.</p>
                            </div>
                         </div>
                      </div>
@@ -115,16 +115,11 @@
                   </div>
                </div>
                <div class="pricing-table">
-                 
-
-
 			   <?php  $data= mysqli_query($db,"SELECT t1.* FROM tbl_package as t1  where t1.isdelete=0  ORDER BY ID DESC");
                   while ($alldata = mysqli_fetch_array($data)) {
                   	// echo "<pre>";
                   	//  print_r($alldata);
                   	?>
-
-
 					<div class="col-md-6 col-lg-3 mb-5 m-2">
 						<div class="plan plan-featured">
 							<div class="plan-header bg-primary">
@@ -135,51 +130,27 @@
 							<label class="price-label"></label>
 							</div>
 							<div class="plan-features">
-							
 							<div class="row justify-content-center rowmrc" >
-
 							<?php
                               $pid=$alldata['id'];
                               $subdata= mysqli_query($db,"SELECT t2.* FROM pack_img as t2 where t2.isdelete=0 and p_id=".$pid);
                               while ($all_sub_data = mysqli_fetch_array($subdata)) { ?>
-								
-								
-
 								<div class="col-6 col-sm-4 col-lg-4" >
 									<div class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary m-0 mb-4 pb-3">
-										
-											
 											<img src='admin/public/90/<?=$all_sub_data['img']?>' class="cart_img" />
 											<span class="font-weight-bold text-uppercase text-1 negative-ls-1 d-block text-dark pt-2"><p><?=$all_sub_data['c_name']?></p></span>
 											</span>
-											
-										
 									</div>
 								</div>
-								
-
-
-
-
-
-
                             <?php } ?>
-
 							</div>
-
 							</div>
 							<div class="plan-footer">
 							<a href="#" class="btn btn-primary btn-modern py-2 px-4">Buy</a>
 							</div>
 						</div>
 					</div>
-                 
  				<?php } ?>
-
-
-
-
-
                </div>
             </div>
          </div>
